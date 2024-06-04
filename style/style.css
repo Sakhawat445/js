@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: lightblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: lightblue;
+    transition-duration: 2s;
+}
+.showlogin {
+    width: 23%;
+    background-color: lightblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+.showsignup {
+    width: 23%;
+    background-color: lightblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+.newpage {
+    width: 23%;
+    background-color: greenyellow;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}

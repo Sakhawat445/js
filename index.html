@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signup and Login</title>
+<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<div style="text-align: center;" id="signupcard">
+<h2>SignUp</h2>
+<form id="signupform">
+    <input type="text" id="signupUsername" placeholder="Username" required>
+    <input type="password" id="signupPassword" placeholder="Password" required>
+    <input type="submit" id="">
+</form>
+<button class="showlogin" id="showlogin" onclick="showlogin()">Show Login</button>
+</div>
+<div id="logincard" style="display: none; text-align: center;">
+<h2>Login</h2>
+<form id="loginform">
+    <input type="text" id="loginUsername" placeholder="Username" required>
+    <input type="password" id="loginPassword" placeholder="Password" required>
+    <input type="submit" id="login">
+</form>
+<button class="showsignup" id="showsignup" onclick="showsignup()">Show SignUp</button>
+<button class="newpage" style="display: none; margin-left: 285px;" id="newpage" onclick="newpage()">go to new page</button>
+</div>
+</div>
+<div class="nav">
+    <h1 id="header" style="display: none;">hello</h1>
+</div>
+<div style="display: none;" id="todo">
+        <input style="width: 300px;height: 25px;" type="text" id="text" placeholder="Username" required>
+    <input style="width: 300px; height: 25px;" type="text" id="description" placeholder="description" required>
+        <input style="width: 200px;" type="datetime-local" id="datetime">
+        <!-- <button id="page" onclick="page()">page</button> -->
+        <button id="pushid" onclick="pushid()">pushid</button>
+        <button id="showtodo" onclick="handleShowTable()">show table</button>
+</div>
+
+<p id="output"></p>
+<script src="js/script.js"></script>
+</body>
+</html>
